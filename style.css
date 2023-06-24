@@ -1,0 +1,26 @@
+table{
+    margin: 20px 5px;
+    border-collapse:collapse;
+}
+table td {
+    padding: 5px 10px;
+    border: thin solid grey;
+}
+table tr:nth-child(odd){
+    background: LightGrey
+}
+
+        
+svg text {
+    font: 8px Verdana;
+}
+svg path, line {
+    fill: none;
+    stroke: #333333;
+    width: 1px;
+}
+svg .grid-line {
+    stroke: black;
+    shape-rendering: crispedges;
+    stroke-opacity: 0.1;
+}
